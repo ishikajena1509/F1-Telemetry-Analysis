@@ -15,7 +15,7 @@ Set up the project environment and understand the project objective.
 - Jupyter notebooks
 - FastF1 caching
 
-### Questions
+### Conclusion
 Successfully built my first F1 telemetry visualization.
 
 ## Day 2
@@ -36,3 +36,20 @@ Successfully built my first F1 telemetry visualization.
 
 ### Biggest Learning
 Understanding the structure of a dataset is the first step before analysis.
+
+## Day 3
+### Topics Learned
+- describe()
+- Selecting columns
+- Sorting data
+- Boolean filtering
+- Creating a custom DataFrame
+
+### Key Observations
+- Q1 includes all 22 drivers.
+- Q2 includes only the top 16.
+- Q3 includes only the top 10.
+- Smaller DataFrames make analysis easier.
+
+### Biggest Learning
+A DataFrame can be customized to contain only the information needed for a specific analysis.
