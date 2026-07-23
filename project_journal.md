@@ -53,3 +53,18 @@ Understanding the structure of a dataset is the first step before analysis.
 
 ### Biggest Learning
 A DataFrame can be customized to contain only the information needed for a specific analysis.
+
+## Day 4
+### Topics Learned
+- session.laps
+- pick_driver()
+- pick_fastest()
+- get_car_data()
+- add_distance()
+- Speed vs Distance plot
+
+### Key Takeaways
+- A session can be analyzed at different levels: results, laps, and telemetry.
+- Telemetry provides thousands of data points for a single lap.
+- Distance is preferred over time when comparing drivers because it aligns data to positions on the track.
+- Speed traces reveal braking zones, straights, and corner exits.
