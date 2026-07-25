@@ -70,3 +70,12 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - The lap advantage came from consistent gains in the middle and final sectors rather than one decisive corner.
 
 -----------------------------------------------------
+
+## 📅 Day 7 – RPM & Gear Analysis
+
+- Compared RPM traces between Antonelli and Russell.
+- Compared gear selection throughout the lap.
+- Observed similar engine and gearbox behavior for both drivers.
+- Connected RPM changes with gear shifts and acceleration.
+
+-----------------------------------------------------
