@@ -69,7 +69,7 @@ A DataFrame can be customized to contain only the information needed for a speci
 - Distance is preferred over time when comparing drivers because it aligns data to positions on the track.
 - Speed traces reveal braking zones, straights, and corner exits.
 
-# China GP 2026 Qualifying - Mercedes Teammate Analysis
+# China GP 2026 Qualifying - Mercedes Teammate Analysis-DAY 5
 
 ## Drivers
 - Kimi Antonelli
@@ -100,3 +100,45 @@ Compare the fastest qualifying laps using telemetry.
 
 ## Conclusion
 Telemetry comparison suggests that the lap time difference was mainly influenced by Kimi rather than Russel.Although George Russell achieved the higher top speed of 333 km/h, Kimi Antonelli completed the faster lap with a time of 1:32.064, which was 0.222 seconds quicker than Russell. The telemetry suggests that the lap time advantage came from more efficient corner exits and earlier throttle application rather than higher straight-line speed. Since both drivers had nearly identical braking points and the same minimum speed, Antonelli's smoother acceleration out of corners was likely the key factor in producing the quicker qualifying lap.
+
+# China GP 2026 Qualifying – Sector & Delta Time Analysis-DAY 6
+
+## Drivers
+- Kimi Antonelli
+- George Russell
+
+## Objective
+Compare sector performance and delta time between the fastest qualifying laps to determine where lap time was gained or lost.
+
+## Sector Analysis
+
+### Sector 1
+- Faster Driver:George Russel
+- Time Difference:0.001s
+
+### Sector 2
+- Faster Driver:Kimi Antonelli
+- Time Difference:0.119s
+
+### Sector 3
+- Faster Driver:Kimi Antonelli
+- Time Difference:0.104s
+
+## Delta Time Analysis
+
+### Observations
+-The delta remained almost unchanged through Sector 1, showing that both drivers had nearly identical pace at the beginning of the lap.
+-The largest increase in Antonelli's advantage occurred during Sector 2, where he gained approximately 0.119 seconds over Russell.
+-Antonelli extended his lead slightly further in Sector 3, gaining another 0.104 seconds.
+-Russell's only advantage was a 0.001-second gain in Sector 1, which was too small to affect the overall result.
+-The final lap time difference of 0.222 seconds was created by consistent gains across Sectors 2 and 3, rather than by a single dramatic moment.
+
+## Engineering Interpretation
+
+The sector analysis provides an overview of where the lap time difference occurred, while the delta time graph identifies the exact locations where performance changed.
+
+The telemetry suggests that the final lap time difference was created through a combination of multiple small gains rather than a single corner.
+
+## Conclusion
+
+Delta time analysis provides a much more detailed understanding of driver performance than sector times alone. It allows engineers to pinpoint exactly where time is gained or lost and helps guide further investigation using telemetry channels such as speed, throttle, and brake data.

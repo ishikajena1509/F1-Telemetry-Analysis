@@ -60,3 +60,13 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Wrote an engineering-style telemetry report based on data analysis.
 
 -----------------------------------------------------
+
+## 📅 Day 6 – Sector & Delta Time Analysis
+
+- Russell was marginally faster in Sector 1 by **0.001 s**.
+- Antonelli gained **0.119 s** in Sector 2.
+- Antonelli gained another **0.104 s** in Sector 3.
+- Antonelli's final lap was **0.222 s** quicker overall.
+- The lap advantage came from consistent gains in the middle and final sectors rather than one decisive corner.
+
+-----------------------------------------------------
