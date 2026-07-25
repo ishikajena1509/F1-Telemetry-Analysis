@@ -299,3 +299,42 @@ The telemetry demonstrates that overall lap time is influenced more by efficient
 ## Conclusion
 
 Corner performance is a combination of braking, apex speed, and throttle application. A driver who balances these three phases effectively is more likely to produce a consistently faster lap than one relying solely on late braking or maximum straight-line speed.
+
+# China GP 2026 Qualifying – Professional Telemetry Dashboard-DAY 11
+
+## Drivers
+- Kimi Antonelli
+- George Russell
+
+## Objective
+Develop a professional multi-channel telemetry dashboard to compare driver performance using synchronized telemetry data.
+
+## Dashboard Channels
+
+- Speed
+- Throttle
+- Brake
+- Gear
+- RPM
+- DRS
+
+## Key Observations
+### Speed
+Both drivers reached competitive top speeds, but differences appeared mainly during corner entry and exit.
+
+### Driver Inputs
+Throttle and brake traces revealed how each driver managed acceleration and deceleration throughout the lap.
+
+### Gear & RPM
+Gear shifts and RPM changes closely followed acceleration and braking events, showing the relationship between engine performance and driver inputs.
+
+### DRS
+Both drivers activated DRS in the permitted zones, indicating similar aerodynamic assistance during qualifying.
+
+## Engineering Interpretation
+
+Viewing multiple telemetry channels together provided a much clearer understanding of driver performance than analyzing individual plots separately. Correlating speed, throttle, brake, gear, RPM, and DRS allowed identification of the reasons behind differences in lap performance rather than simply observing the final lap time.
+
+## Conclusion
+
+A multi-channel telemetry dashboard is an effective engineering tool for understanding driver behavior, vehicle response, and overall lap performance.

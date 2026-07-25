@@ -107,3 +107,12 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Built an engineering summary of corner performance.
 
 -----------------------------------------------------
+
+## 📅 Day 11 – Professional Telemetry Dashboard
+
+- Built a six-panel telemetry dashboard.
+- Compared multiple telemetry channels simultaneously.
+- Refactored plotting code into a reusable function.
+- Began separating reusable code into the `scripts` directory.
+
+-----------------------------------------------------
