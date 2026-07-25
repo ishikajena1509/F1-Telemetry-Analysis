@@ -207,3 +207,44 @@ The telemetry indicates that both drivers used DRS efficiently and consistently.
 ## Conclusion
 
 DRS provides a valuable speed advantage on straights, but overall lap performance depends on the combination of corner exit speed, throttle application, acceleration, and driver consistency. Telemetry analysis confirms that maintaining momentum through multiple corners is often more important than achieving the highest top speed.
+
+# China GP 2026 Qualifying – Braking Performance Analysis-DAY 9
+
+## Drivers
+- Kimi Antonelli
+- George Russell
+
+## Objective
+Analyze braking performance, deceleration, and braking zones to compare the driving techniques of both Mercedes drivers during qualifying.
+
+## Brake Telemetry Analysis
+
+### Observations
+- Both drivers braked at nearly identical locations around the circuit.
+- Brake application corresponded closely with major corner entry points.
+- Long straight sections showed no brake application.
+- Brake traces indicated consistent braking strategies between teammates.
+
+## Deceleration Analysis
+
+### Observations
+- Acceleration was calculated from changes in speed over time.
+- Negative acceleration values represented braking events.
+- The strongest negative peaks corresponded to heavy braking zones.
+- Both drivers produced similar deceleration profiles throughout the lap.
+
+## Braking Zone Comparison
+
+### Observations
+- Major braking events occurred before slow and medium-speed corners.
+- Speed reduced rapidly after brake application.
+- Smooth transition from braking to acceleration was visible after each corner.
+- Efficient braking contributed to maintaining momentum through technical sections.
+
+## Engineering Interpretation
+
+Although both drivers used similar braking points, overall lap performance depended on how efficiently they transitioned from braking into cornering and then back to acceleration. The telemetry suggests that consistency in braking and smooth corner entry are just as important as braking as late as possible.
+
+## Conclusion
+
+Braking performance is not determined solely by the braking point. The combination of controlled deceleration, balanced corner entry, and strong acceleration on corner exit plays a crucial role in producing a competitive qualifying lap.

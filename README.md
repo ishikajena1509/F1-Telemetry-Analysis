@@ -89,3 +89,12 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Reinforced that better corner exits can outweigh higher top speed.
 
 -----------------------------------------------------
+
+## 📅 Day 9 – Braking Performance Analysis
+
+- Compared brake traces between teammates.
+- Calculated acceleration/deceleration from speed data.
+- Identified major braking zones.
+- Compared braking efficiency through telemetry.
+
+-----------------------------------------------------
