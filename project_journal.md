@@ -142,3 +142,35 @@ The telemetry suggests that the final lap time difference was created through a 
 ## Conclusion
 
 Delta time analysis provides a much more detailed understanding of driver performance than sector times alone. It allows engineers to pinpoint exactly where time is gained or lost and helps guide further investigation using telemetry channels such as speed, throttle, and brake data.
+
+# China GP 2026 Qualifying – RPM & Gear Analysis-DAY 7
+
+## Drivers
+- Kimi Antonelli
+- George Russell
+
+## Objective
+Compare engine RPM and gear selection between the fastest qualifying laps to understand engine behavior and shifting strategy.
+
+## RPM Analysis
+
+### Observations
+- Both drivers displayed very similar RPM traces throughout the lap.
+- RPM increased steadily during acceleration and dropped after each upshift.
+- The highest RPM values were observed on the main straights before gear changes.
+- The lowest RPM values occurred during heavy braking and slow-speed corners.
+
+## Gear Analysis
+
+### Observations
+- Both drivers used the complete gear range available during the lap.
+- Gear changes followed nearly identical patterns, indicating similar racing lines and shift strategies.
+- Downshifts occurred before corner entry, while upshifts followed acceleration on corner exit and long straights.
+
+## Engineering Interpretation
+
+The close similarity in RPM and gear traces indicates that both Mercedes drivers operated the car in a very similar manner. Engine RPM closely followed gear selection, demonstrating efficient acceleration and braking phases. Small differences in lap time are therefore more likely to result from corner execution and throttle application rather than gearbox strategy.
+
+## Conclusion
+
+RPM and gear telemetry provide valuable insight into how a driver extracts performance from the car. When combined with speed, throttle, brake, sector, and delta time analysis, these telemetry channels help engineers identify subtle performance differences that are not apparent from lap times alone.
