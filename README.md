@@ -79,3 +79,13 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Connected RPM changes with gear shifts and acceleration.
 
 -----------------------------------------------------
+
+## 📅 Day 8 – DRS & Acceleration Analysis
+
+- Compared DRS usage between Antonelli and Russell.
+- Verified similar DRS activation patterns.
+- Analyzed the relationship between DRS and top speed.
+- Studied acceleration zones throughout the lap.
+- Reinforced that better corner exits can outweigh higher top speed.
+
+-----------------------------------------------------

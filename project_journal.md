@@ -174,3 +174,36 @@ The close similarity in RPM and gear traces indicates that both Mercedes drivers
 ## Conclusion
 
 RPM and gear telemetry provide valuable insight into how a driver extracts performance from the car. When combined with speed, throttle, brake, sector, and delta time analysis, these telemetry channels help engineers identify subtle performance differences that are not apparent from lap times alone.
+
+# China GP 2026 Qualifying – DRS & Acceleration Analysis-DAY 8
+
+## Drivers
+- Kimi Antonelli
+- George Russell
+
+## Objective
+Analyze DRS usage and acceleration characteristics to understand their influence on qualifying lap performance.
+
+## DRS Analysis
+
+### Observations
+- Both drivers activated DRS in the designated activation zones.
+- DRS usage patterns were nearly identical throughout the lap.
+- DRS remained closed during cornering sections to maintain aerodynamic stability.
+- Maximum speeds were achieved while DRS was active on the straights.
+
+## Speed & Acceleration Analysis
+
+### Observations
+- Speed increased rapidly after corner exits as throttle application reached maximum.
+- Russell achieved the highest top speed during the lap.
+- Antonelli maintained stronger average pace through technical sections despite a slightly lower top speed.
+- Corner exits had a greater influence on overall lap time than maximum straight-line speed.
+
+## Engineering Interpretation
+
+The telemetry indicates that both drivers used DRS efficiently and consistently. Since DRS usage was almost identical, the lap time difference cannot be attributed solely to aerodynamic assistance. Instead, Antonelli's superior corner exits and smoother acceleration through technical sections enabled him to build a cumulative time advantage despite Russell achieving the higher maximum speed.
+
+## Conclusion
+
+DRS provides a valuable speed advantage on straights, but overall lap performance depends on the combination of corner exit speed, throttle application, acceleration, and driver consistency. Telemetry analysis confirms that maintaining momentum through multiple corners is often more important than achieving the highest top speed.
