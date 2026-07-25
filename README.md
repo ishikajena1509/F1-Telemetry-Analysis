@@ -98,3 +98,12 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Compared braking efficiency through telemetry.
 
 -----------------------------------------------------
+
+## 📅 Day 10 – Corner Performance Analysis
+
+- Compared three representative corners.
+- Evaluated throttle application after the apex.
+- Identified stronger and weaker corners for each driver.
+- Built an engineering summary of corner performance.
+
+-----------------------------------------------------

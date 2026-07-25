@@ -248,3 +248,54 @@ Although both drivers used similar braking points, overall lap performance depen
 ## Conclusion
 
 Braking performance is not determined solely by the braking point. The combination of controlled deceleration, balanced corner entry, and strong acceleration on corner exit plays a crucial role in producing a competitive qualifying lap.
+
+# China GP 2026 Qualifying – Corner Performance Analysis-DAY 10
+
+## Drivers
+- Kimi Antonelli
+- George Russell
+
+## Objective
+Analyze corner entry, apex speed, throttle application, and corner exit performance to determine where lap time was gained and lost.
+
+## Corner Entry Analysis
+### Observations
+- Both drivers followed similar braking points.
+- Speed reduced consistently before each major corner.
+- Small differences appeared in minimum corner speed.
+
+## Apex Analysis
+### Observations
+- Apex speed varied slightly between drivers.
+- Maintaining a higher minimum speed helped preserve momentum.
+- Small differences at the apex influenced corner exit performance.
+
+
+## Corner Exit Analysis
+### Observations
+- Throttle traces showed how quickly each driver accelerated after the apex.
+- Earlier throttle application resulted in stronger acceleration onto the following straight.
+- Smooth throttle application improved overall stability and momentum.
+
+## Corner Comparison
+
+| Corner | Stronger Driver | Reason |
+|---------|-----------------|--------|
+| Corner 1 | (Your Observation) | Earlier throttle / Higher minimum speed |
+| Corner 2 | (Your Observation) | Better corner exit |
+| Corner 3 | (Your Observation) | Smoother acceleration |
+
+## Engineering Interpretation
+
+The telemetry demonstrates that overall lap time is influenced more by efficient corner exits than by isolated top-speed advantages. Drivers who return to full throttle earlier build a speed advantage that continues throughout the following straight. Consistency across multiple corners ultimately determines the fastest qualifying lap.
+
+## Key Findings
+
+- Corner exits had a greater impact than top speed.
+- Earlier throttle application improved acceleration.
+- Small differences at the apex accumulated into measurable lap-time gains.
+- Telemetry analysis identified specific corners where performance differed between teammates.
+
+## Conclusion
+
+Corner performance is a combination of braking, apex speed, and throttle application. A driver who balances these three phases effectively is more likely to produce a consistently faster lap than one relying solely on late braking or maximum straight-line speed.
