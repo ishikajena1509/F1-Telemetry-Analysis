@@ -116,3 +116,12 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Began separating reusable code into the `scripts` directory.
 
 -----------------------------------------------------
+
+## 📅 Day 12 – Interactive Plotly Dashboard
+
+- Learned Plotly fundamentals.
+- Built multi-panel dashboards.
+- Improved telemetry visualization.
+- Exported an interactive dashboard for browser viewing.
+
+-----------------------------------------------------

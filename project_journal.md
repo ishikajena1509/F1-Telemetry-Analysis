@@ -338,3 +338,22 @@ Viewing multiple telemetry channels together provided a much clearer understandi
 ## Conclusion
 
 A multi-channel telemetry dashboard is an effective engineering tool for understanding driver behavior, vehicle response, and overall lap performance.
+
+# Day 12 – Interactive Dashboard
+
+## Topics Learned
+- Plotly
+- Interactive visualizations
+- Subplots
+- HTML dashboard export
+
+## Completed
+- Built interactive telemetry dashboard
+- Added synchronized telemetry plots
+- Exported dashboard as HTML
+
+## Biggest Learning
+Interactive dashboards allow engineers to inspect telemetry dynamically by zooming, hovering, and comparing multiple drivers in real time.
+
+## Conclusion
+Interactive dashboards provide a more engaging way to analyze telemetry data than static plots and improve the usability of the project for demonstrations and portfolio presentations.
