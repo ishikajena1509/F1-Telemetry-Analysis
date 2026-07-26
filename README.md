@@ -145,4 +145,13 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Responsive Plotly charts
 
 -----------------------------------------------------
+
+## 📅 Day 15 – Formula 1 Telemetry Analysis Dashboard
+
+- Dynamic driver selection
+- Multi-telemetry dashboard
+- Smart engineering insights
+- Final repository organization
+- Professional documentation
+
 -----------------------------------------------------
