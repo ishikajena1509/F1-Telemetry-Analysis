@@ -340,7 +340,6 @@ Viewing multiple telemetry channels together provided a much clearer understandi
 A multi-channel telemetry dashboard is an effective engineering tool for understanding driver behavior, vehicle response, and overall lap performance.
 
 # Day 12 – Interactive Dashboard
-
 ## Topics Learned
 - Plotly
 - Interactive visualizations
@@ -359,7 +358,6 @@ Interactive dashboards allow engineers to inspect telemetry dynamically by zoomi
 Interactive dashboards provide a more engaging way to analyze telemetry data than static plots and improve the usability of the project for demonstrations and portfolio presentations.
 
 # Day 13 – Dashboard Enhancement
-
 ## Objective
 
 Improve the Formula 1 telemetry dashboard by adding performance summaries and professional visualization.
@@ -384,3 +382,37 @@ Improve the Formula 1 telemetry dashboard by adding performance summaries and pr
 - Interactive dashboards improve the analysis workflow.
 - Combining visualization with statistics creates a more complete engineering report.
 
+# Day 14 – Streamlit Dashboard
+## Objective
+Transform the Formula 1 telemetry analysis into an interactive web application using Streamlit.
+
+## Features Implemented
+
+- Interactive Streamlit dashboard
+- Driver selection using sidebar
+- Speed comparison using Plotly
+- Driver performance summary
+  - Top Speed
+  - Average Speed
+  - Maximum RPM
+- Engineering Insights section
+- About section
+
+## Technologies Used
+
+- Python
+- FastF1
+- Plotly
+- Streamlit
+- Pandas
+
+## Challenges Faced
+
+- Streamlit installation and PATH configuration
+- Cache directory issue
+- Integrating Plotly with Streamlit
+- Organizing dashboard layout
+
+## Conclusion
+
+Successfully built an interactive Formula 1 telemetry dashboard capable of comparing two drivers with live visualizations and performance statistics.

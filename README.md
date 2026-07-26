@@ -134,5 +134,15 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - HTML Dashboard Export
 
 -----------------------------------------------------
+
+## 📅 Day 14 – Interactive Dashboard
+
+- Driver selection
+- Interactive telemetry visualization
+- Speed comparison
+- Driver performance metrics
+- Engineering insights
+- Responsive Plotly charts
+
 -----------------------------------------------------
 -----------------------------------------------------
