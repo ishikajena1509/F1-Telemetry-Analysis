@@ -125,3 +125,14 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Exported an interactive dashboard for browser viewing.
 
 -----------------------------------------------------
+
+## 📅 Day 13 – Dashboard Enhancement
+
+- KPI Summary Table
+- Interactive Dashboard
+- Driver Comparison
+- HTML Dashboard Export
+
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------

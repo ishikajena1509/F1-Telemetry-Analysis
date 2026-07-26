@@ -357,3 +357,30 @@ Interactive dashboards allow engineers to inspect telemetry dynamically by zoomi
 
 ## Conclusion
 Interactive dashboards provide a more engaging way to analyze telemetry data than static plots and improve the usability of the project for demonstrations and portfolio presentations.
+
+# Day 13 – Dashboard Enhancement
+
+## Objective
+
+Improve the Formula 1 telemetry dashboard by adding performance summaries and professional visualization.
+
+## Features Added
+
+- Improved dashboard styling
+- Driver performance summary
+- KPI comparison table
+- Interactive HTML export
+
+## Skills Learned
+
+- Plotly tables
+- Dashboard KPIs
+- Performance metrics
+- Data summarization
+
+## Engineering Takeaways
+
+- Summary statistics provide a quick overview before detailed telemetry analysis.
+- Interactive dashboards improve the analysis workflow.
+- Combining visualization with statistics creates a more complete engineering report.
+

@@ -1,0 +1,20 @@
+Antonelli,Russell
+Top Speed (km/h),332.0,333.0
+Average Speed (km/h),210.33,210.01
+Max RPM,12264.0,12581.0
+Average Throttle (%),66.37,67.55
+Max Gear,8.0,8.0
+
+
+# Day 13 – Driver Performance Summary
+
+## Key Findings
+
+- Antonelli achieved the higher top speed.
+- Average speeds were very similar.
+- Both drivers reached maximum gear during the lap.
+- RPM values indicate comparable engine performance.
+
+## Engineering Interpretation
+
+The telemetry summary shows that both drivers delivered competitive qualifying laps. Small differences in average speed and throttle usage suggest that lap time differences are likely due to braking consistency and corner exits rather than straight-line performance.
