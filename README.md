@@ -156,14 +156,3 @@ This project analyzes real Formula 1 telemetry data to understand driver perform
 - Professional documentation
 
 -----------------------------------------------------
-
-## 📅 Day 16 – Formula 1 Telemetry Analysis Dashboard
-
--Added project overview and objectives.
--Listed key features of the F1 Telemetry Analytics Platform.
--Included technology stack used.
--Added project structure.
--Wrote installation and execution instructions.
--Mentioned future enhancements.
--Added project author information.
------------------------------------------------------
