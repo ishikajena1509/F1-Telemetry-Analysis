@@ -87,7 +87,7 @@ CACHE_DIR.mkdir(exist_ok=True)
 
 fastf1.Cache.enable_cache(str(CACHE_DIR))
 
-YEAR = 2026
+YEAR = 2024
 GRAND_PRIX = "China"
 SESSION_TYPE = "Q"
 
