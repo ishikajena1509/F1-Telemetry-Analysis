@@ -8,14 +8,14 @@ st.set_page_config(
 
 st.markdown("""
 <div style='text-align:center;padding:20px;'>
-    <h1>📖 Telemetry Guide</h1>
+    <h1>Telemetry Guide</h1>
     <h4>Understand the key telemetry signals used by Formula 1 engineers to analyze driver performance.</h4>
 </div>
 """, unsafe_allow_html=True)
 
 st.divider()
 
-st.markdown("## 🚀 Speed")
+st.markdown("## Speed")
 
 st.info("""
 ### What is Speed?
@@ -37,7 +37,7 @@ Engineers compare speed traces to understand whether a driver is braking too ear
 
 st.divider()
 
-st.markdown("## 🟢 Throttle")
+st.markdown("## Throttle")
 
 st.info("""
 ### What is Throttle?
@@ -59,7 +59,7 @@ A driver who applies the throttle smoothly usually has better traction and tyre 
 
 st.divider()
 
-st.markdown("## 🛑 Brake")
+st.markdown("## Brake")
 
 st.info("""
 ### What is Brake?
@@ -81,7 +81,7 @@ Efficient braking allows a driver to slow the car just enough before the corner 
 
 st.divider()
 
-st.markdown("## ⚙️ Gear")
+st.markdown("## Gear")
 
 st.info("""
 ### What is Gear?
@@ -103,7 +103,7 @@ Different gear choices can reveal how drivers balance acceleration, stability, a
 
 st.divider()
 
-st.markdown("## 🔁 RPM")
+st.markdown("## RPM")
 
 st.info("""
 ### What is RPM?
@@ -125,7 +125,7 @@ Maintaining the engine within its optimal RPM range ensures maximum performance 
 
 st.divider()
 
-st.markdown("## 📡 DRS")
+st.markdown("## DRS")
 
 st.info("""
 ### What is DRS?
@@ -148,6 +148,6 @@ Engineers analyze DRS activation to evaluate overtaking performance and determin
 st.divider()
 
 st.caption(
-    "📖 Understanding telemetry is the first step toward analyzing Formula 1 performance like a race engineer."
-    "🏎️ F1 Telemetry Analytics Platform | Built using Python • FastF1 • Plotly • Streamlit"
+    " Understanding telemetry is the first step toward analyzing Formula 1 performance like a race engineer."
+     " F1 Telemetry Analytics Platform | Built using Python • FastF1 • Plotly • Streamlit"
 )

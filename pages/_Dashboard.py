@@ -60,7 +60,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("# 🏎️ F1 Telemetry Dashboard :      "
+st.markdown("#F1 Telemetry Dashboard :      "
 "Case Study   -  "
 "2026 Chinese Grand Prix – Qualifying")
 
@@ -102,10 +102,10 @@ with st.spinner("Loading Formula 1 telemetry..."):
     session.load()
 event = session.event
 
-st.title(f"🏎️ {event['EventName']} {event['EventDate'].year}")
-st.caption(f"📍 Session: {session.name}")
+st.title(f"{event['EventName']} {event['EventDate'].year}")
+st.caption(f"Session: {session.name}")
 
-st.sidebar.header("🏎️ Session Configuration")
+st.sidebar.header("Session Configuration")
 
 available_drivers = sorted(
     session.laps["Driver"].dropna().unique()
@@ -166,7 +166,7 @@ winner_name = (
     if winner == driver1
     else driver2_name
 )
-st.markdown("## 🏆 Session Winner")
+st.markdown("## Session Winner")
 
 col1, col2 = st.columns([2, 1])
 
@@ -175,7 +175,7 @@ with col1:
 <div class="winner-card">
 
 <div class="winner-title">
-🏆 SESSION WINNER
+SESSION WINNER
 </div>
 
 <div class="winner-name">
@@ -184,11 +184,11 @@ with col1:
 
 <div class="winner-info">
 
-🏎️ <b>Team:</b> {winner_lap['Team']}<br>
+<b>Team:</b> {winner_lap['Team']}<br>
 
-⏱️ <b>Fastest Lap:</b> {format_laptime(winner_lap['LapTime'])}<br>
+⏱<b>Fastest Lap:</b> {format_laptime(winner_lap['LapTime'])}<br>
 
-🚀 <b>Top Speed:</b> {winner_lap.get_car_data()['Speed'].max():.1f} km/h
+<b>Top Speed:</b> {winner_lap.get_car_data()['Speed'].max():.1f} km/h
 
 </div>
 
@@ -207,15 +207,15 @@ st.divider()
 driver1_car = driver1_fastest.get_car_data().add_distance()
 driver2_car = driver2_fastest.get_car_data().add_distance()
 
-st.markdown("## 📈 Performance Overview")
+st.markdown("## Performance Overview")
 
 comparison_data = {
     "Metric": [
-        "🏎️ Team",
-        "⏱️ Fastest Lap",
-        "🚀 Top Speed (km/h)",
-        "📈 Average Speed (km/h)",
-        "⚙️ Maximum RPM"
+        "Team",
+        "Fastest Lap",
+        "Top Speed (km/h)",
+        "Average Speed (km/h)",
+        "Maximum RPM"
     ],
 
     driver1_name: [
@@ -243,7 +243,7 @@ st.dataframe(
 
 st.divider()
 
-st.markdown("## 🚀 Speed Comparison")
+st.markdown("##Speed Comparison")
 
 fig = go.Figure()
 
@@ -280,7 +280,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 st.divider()
 
-st.markdown("## 🎛️ Driver Inputs")
+st.markdown("##Driver Inputs")
 
 col1, col2 = st.columns(2)
 
@@ -355,7 +355,7 @@ with col2:
     st.plotly_chart(brake_fig, use_container_width=True)
 
 st.divider()
-st.markdown("## ⚙️ Car Performance")
+st.markdown("##Car Performance")
 
 col1, col2, col3 = st.columns(3)
 
@@ -454,7 +454,7 @@ with col3:
 
 st.divider()
 
-st.markdown("## 🧑‍🔧 Race Engineer Insights")
+st.markdown("##Race Engineer Insights")
 
 winner_speed = winner_lap.get_car_data()["Speed"].max()
 
@@ -465,15 +465,15 @@ speed_diff = abs(winner_speed - loser_speed)
 
 st.info(
     f"""
-### 🏁 Lap Summary
+###Lap Summary
 
-🏆 **Fastest Driver:** {winner_name}
+**Fastest Driver:** {winner_name}
 
-⏱️ **Fastest Lap:** {format_laptime(winner_lap['LapTime'])}
+**Fastest Lap:** {format_laptime(winner_lap['LapTime'])}
 
-🚀 **Top Speed:** {winner_speed:.1f} km/h
+**Top Speed:** {winner_speed:.1f} km/h
 
-📊 **Top Speed Difference:** {speed_diff:.1f} km/h
+**Top Speed Difference:** {speed_diff:.1f} km/h
 
 The selected drivers have been compared using official FastF1 telemetry.
 The graphs above illustrate differences in speed, throttle application,
@@ -483,5 +483,5 @@ braking behavior, gear changes, RPM, and DRS usage across the lap.
 
 st.divider()
 st.caption(
-    "🏎️ F1 Telemetry Analytics Platform | Built using Python • FastF1 • Plotly • Streamlit"
+    "F1 Telemetry Analytics Platform | Built using Python • FastF1 • Plotly • Streamlit"
 )

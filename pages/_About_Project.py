@@ -8,14 +8,14 @@ st.set_page_config(
 
 st.markdown("""
 <div style='text-align:center;padding:20px;'>
-    <h1>👨‍💻 About the Project</h1>
+    <h1>About the Project</h1>
     <h4>Discover the motivation, technologies, and engineering concepts behind the F1 Telemetry Analytics Platform.</h4>
 </div>
 """, unsafe_allow_html=True)
 
 st.divider()
 
-st.markdown("## 🏎️ Project Overview")
+st.markdown("##Project Overview")
 
 st.info("""
 ### F1 Telemetry Analytics Platform
@@ -29,24 +29,24 @@ The primary objective of this project is to combine software engineering, data a
 
 st.divider()
 
-st.markdown("## 🎯 Objectives")
+st.markdown("##Objectives")
 
-st.success("""✅ Learn motorsport data analysis
+st.success("""Learn motorsport data analysis
 
-✅ Build an interactive analytics dashboard
+Build an interactive analytics dashboard
 
-✅ Visualize Formula 1 telemetry
+Visualize Formula 1 telemetry
 
-✅ Compare driver performance
+Compare driver performance
 
-✅ Strengthen Python, Streamlit, and Plotly skills
+Strengthen Python, Streamlit, and Plotly skills
 
-✅ Create a professional portfolio project
+Create a professional portfolio project
 """)
 
 st.divider()
 
-st.markdown("## 🛠️ Technology Stack")
+st.markdown("##Technology Stack")
 
 col1, col2, col3 = st.columns(3)
 
@@ -72,22 +72,22 @@ with col6:
 
 st.divider()
 
-st.markdown("## ✨ Key Features")
+st.markdown("##Key Features")
 
 st.markdown("""
-- 📊 Interactive Dashboard for telemetry analysis
-- 🏎️ Driver performance comparison
-- 🚀 Speed, Throttle, Brake, Gear, RPM & DRS visualizations
-- 📈 Automated engineering insights
-- 🏁 Circuit Explorer covering all current Formula 1 circuits
-- 📖 Telemetry Guide for beginners
-- 📑 Dedicated About Project documentation
-- 🎨 Interactive and responsive Streamlit interface
+-  Interactive Dashboard for telemetry analysis
+-  Driver performance comparison
+-  Speed, Throttle, Brake, Gear, RPM & DRS visualizations
+-  Automated engineering insights
+-  Circuit Explorer covering all current Formula 1 circuits
+-  Telemetry Guide for beginners
+-  Dedicated About Project documentation
+-  Interactive and responsive Streamlit interface
 """)
 
 st.divider()
 
-st.markdown("## 📈 Challenges & Learnings")
+st.markdown("##Challenges & Learnings")
 
 st.info("""
 ### Challenges Faced
@@ -115,7 +115,7 @@ st.info("""
 
 st.divider()
 
-st.markdown("## 🚀 Future Enhancements")
+st.markdown("##Future Enhancements")
 
 st.success("""
 ✔ Support for multiple Formula 1 seasons
@@ -137,7 +137,7 @@ st.success("""
 
 st.divider()
 
-st.markdown("## 👩‍💻 Developer")
+st.markdown("## Developer")
 
 st.markdown("""
 ### Ms. Ishika Jena
@@ -152,6 +152,6 @@ The goal was not only to analyze telemetry data but also to build a scalable, us
 st.divider()
 
 st.caption(
-    "🏎️ Thank you for exploring the F1 Telemetry Analytics Platform!"
-    "🏎️ F1 Telemetry Analytics Platform | Built using Python • FastF1 • Plotly • Streamlit"
+    "Thank you for exploring the F1 Telemetry Analytics Platform!"
+    " F1 Telemetry Analytics Platform | Built using Python • FastF1 • Plotly • Streamlit"
 )

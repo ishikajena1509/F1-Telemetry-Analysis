@@ -1,7 +1,7 @@
-# 🏎️ Formula 1 Telemetry Analytics Platform
+# 🏎️Formula 1 Telemetry Analytics Platform
 
 An interactive Formula 1 telemetry dashboard built with Python, FastF1, Plotly, and Streamlit. Compare drivers, visualize telemetry, explore circuits, and generate engineering-style performance insights using real Formula 1 data.
-## ✨ Features
+## Features
 
 - Interactive driver comparison
 - Speed, throttle, brake and RPM telemetry
@@ -11,7 +11,7 @@ An interactive Formula 1 telemetry dashboard built with Python, FastF1, Plotly, 
 - Dynamic telemetry selection
 - Performance KPIs
 - Interactive Plotly charts
-## 🛠️ Technologies
+## Technologies
 
 - Python
 - Streamlit
@@ -39,7 +39,7 @@ README.md
 ## Data Source
 Telemetry data is provided through the FastF1 library, which accesses publicly available Formula 1 timing and telemetry data.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Race strategy analysis
 - Tire degradation visualization

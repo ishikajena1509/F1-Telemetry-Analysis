@@ -186,19 +186,19 @@ st.markdown(
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-    st.metric("🐍 Language", "Python")
+    st.metric(" Language", "Python")
 
 with col2:
-    st.metric("🏎 Data", "FastF1")
+    st.metric(" Data", "FastF1")
 
 with col3:
-    st.metric("📊 Charts", "Plotly")
+    st.metric(" Charts", "Plotly")
 
 with col4:
-    st.metric("📈 Analysis", "Pandas")
+    st.metric(" Analysis", "Pandas")
 
 with col5:
-    st.metric("💻 Framework", "Streamlit")
+    st.metric(" Framework", "Streamlit")
 
 st.divider()
 
@@ -212,23 +212,23 @@ st.markdown(
 )
 
 workflow = """
-📥 Race Data
+ Race Data
 
 ⬇️
 
-🏎 FastF1 API
+ FastF1 API
 
 ⬇️
 
-🐍 Python Processing
+ Python Processing
 
 ⬇️
 
-📊 Interactive Visualizations
+ Interactive Visualizations
 
 ⬇️
 
-🧠 Engineering Insights
+ Engineering Insights
 """
 
 st.code(workflow, language="text")
@@ -238,7 +238,7 @@ st.divider()
 st.markdown(
     """
     <p class="section-title">
-    💼 Why This Project?
+    Why This Project?
     </p>
     """,
     unsafe_allow_html=True
@@ -269,7 +269,7 @@ st.markdown(
 """
 <div class="footer">
 
-Built with ❤️ using Python • FastF1 • Pandas • Plotly • Streamlit
+Built with love using Python • FastF1 • Pandas • Plotly • Streamlit
 
 </div>
 """,

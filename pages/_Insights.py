@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 st.markdown("""
-# 📈 Race Insights
+#Race Insights
 
 Transform telemetry into engineering insights.
 """)
@@ -42,7 +42,7 @@ with st.spinner("Loading telemetry..."):
     )
     session.load()
 
-st.sidebar.header("🏎️ Session Configuration")
+st.sidebar.header("Session Configuration")
 
 available_drivers = sorted(
     session.laps["Driver"].dropna().unique()
@@ -94,20 +94,20 @@ driver2_speed = driver2_fastest.get_car_data()["Speed"].max()
 
 speed_diff = abs(driver1_speed - driver2_speed)
 
-st.markdown("## 🏁 Session Summary")
+st.markdown("##Session Summary")
 
 col1, col2 = st.columns(2)
 
 with col1:
 
     st.success(f"""
-### 🏆 Winner
+###Winner
 
 **{winner_name}**
 
-🏎️ Team: **{winner_team}**
+Team: **{winner_team}**
 
-⏱️ Fastest Lap: **{format_laptime(winner_lap['LapTime'])}**
+Fastest Lap: **{format_laptime(winner_lap['LapTime'])}**
 """)
 
 with col2:
@@ -124,7 +124,7 @@ with col2:
 
 st.divider()
 
-st.markdown("## 📊 Sector Analysis")
+st.markdown("##Sector Analysis")
 
 sector1 = {
     driver1_name: driver1_fastest["Sector1Time"],
@@ -150,9 +150,9 @@ with col1:
     st.success(f"""
 ### Sector 1
 
-🏆 **{winner_s1}**
+**{winner_s1}**
 
-⏱️ {sector1[winner_s1].total_seconds():.3f}s
+{sector1[winner_s1].total_seconds():.3f}s
 """)
 
 with col2:
@@ -162,9 +162,9 @@ with col2:
     st.success(f"""
 ### Sector 2
 
-🏆 **{winner_s2}**
+**{winner_s2}**
 
-⏱️ {sector2[winner_s2].total_seconds():.3f}s
+{sector2[winner_s2].total_seconds():.3f}s
 """)
 
 with col3:
@@ -174,27 +174,27 @@ with col3:
     st.success(f"""
 ### Sector 3
 
-🏆 **{winner_s3}**
+**{winner_s3}**
 
-⏱️ {sector3[winner_s3].total_seconds():.3f}s
+{sector3[winner_s3].total_seconds():.3f}s
 """)
 st.divider()
 
-st.markdown("## 🧑‍🔧 Engineer Analysis")
+st.markdown("##Engineer Analysis")
 
 observations = []
 
 observations.append(
-    f"🏆 **{winner_name}** recorded the fastest lap of the session in **{format_laptime(winner_lap['LapTime'])}**."
+    f"**{winner_name}** recorded the fastest lap of the session in **{format_laptime(winner_lap['LapTime'])}**."
 )
 
 if driver1_speed > driver2_speed:
     observations.append(
-        f"🚀 **{driver1_name}** achieved the higher top speed by **{driver1_speed-driver2_speed:.1f} km/h**."
+        f"**{driver1_name}** achieved the higher top speed by **{driver1_speed-driver2_speed:.1f} km/h**."
     )
 else:
     observations.append(
-        f"🚀 **{driver2_name}** achieved the higher top speed by **{driver2_speed-driver1_speed:.1f} km/h**."
+        f"**{driver2_name}** achieved the higher top speed by **{driver2_speed-driver1_speed:.1f} km/h**."
     )
 
 sector_wins = {
@@ -220,11 +220,11 @@ else:
 overall_sector_winner = max(sector_wins, key=sector_wins.get)
 
 observations.append(
-    f"📊 **{overall_sector_winner}** was quicker in **{sector_wins[overall_sector_winner]} out of 3 sectors**."
+    f"**{overall_sector_winner}** was quicker in **{sector_wins[overall_sector_winner]} out of 3 sectors**."
 )
 
 observations.append(
-    f"⏱️ The overall lap difference between the selected drivers was **{lap_gap:.3f} seconds**."
+    f"The overall lap difference between the selected drivers was **{lap_gap:.3f} seconds**."
 )
 
 for obs in observations:
@@ -232,23 +232,23 @@ for obs in observations:
 
 st.divider()
 
-st.markdown("## 📌 Key Takeaways")
+st.markdown("##Key Takeaways")
 
 takeaways = []
 
-takeaways.append(f"🏆 Faster Driver: **{winner_name}**")
+takeaways.append(f"Faster Driver: **{winner_name}**")
 
 if driver1_speed > driver2_speed:
     takeaways.append(
-        f"🚀 Higher Top Speed: **{driver1_name}** ({driver1_speed:.1f} km/h)"
+        f"Higher Top Speed: **{driver1_name}** ({driver1_speed:.1f} km/h)"
     )
 else:
     takeaways.append(
-        f"🚀 Higher Top Speed: **{driver2_name}** ({driver2_speed:.1f} km/h)"
+        f"Higher Top Speed: **{driver2_name}** ({driver2_speed:.1f} km/h)"
     )
 
 takeaways.append(
-    f"📊 Sector Advantage: **{overall_sector_winner}** won **{sector_wins[overall_sector_winner]} of 3 sectors**."
+    f"Sector Advantage: **{overall_sector_winner}** won **{sector_wins[overall_sector_winner]} of 3 sectors**."
 )
 
 if lap_gap < 0.2:
@@ -258,12 +258,12 @@ elif lap_gap < 0.5:
 else:
     gap_comment = "Clear pace advantage."
 
-takeaways.append(f"⏱️ {gap_comment}")
+takeaways.append(f"{gap_comment}")
 
 for takeaway in takeaways:
     st.success(takeaway)
 
 st.divider()
 st.caption(
-    "🏎️ F1 Telemetry Analytics Platform | Built using Python • FastF1 • Plotly • Streamlit"
+    " F1 Telemetry Analytics Platform | Built using Python • FastF1 • Plotly • Streamlit"
 )
