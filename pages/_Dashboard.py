@@ -99,7 +99,11 @@ with st.spinner("Loading Formula 1 telemetry..."):
         SESSION_TYPE
     )
 
+try:
     session.load()
+except Exception as e:
+    st.exception(e)
+    st.stop()
 event = session.event
 
 st.title(f"{event['EventName']} {event['EventDate'].year}")
