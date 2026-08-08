@@ -47,5 +47,3 @@ Telemetry data is provided through the FastF1 library, which accesses publicly a
 - Pit stop analysis
 - Team performance comparison
 
-## Live Demo:
-https://f1-telemetry-analysis-hvwrbzkqbj3fy9txusz6gs.streamlit.app/
